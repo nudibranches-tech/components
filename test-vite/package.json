@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nudibranches-tech/components-oidc-axa": "file:../oidc-axa/nudibranches-tech-components-oidc-axa-1.0.0.tgz",
+    "@nudibranches-tech-components/oidc-axa": "file:../oidc-axa/nudibranches-tech-components-oidc-axa-1.0.0.tgz",
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

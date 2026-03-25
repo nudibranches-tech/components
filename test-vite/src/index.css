@@ -1,4 +1,4 @@
-@import '@nudibranches-tech/components-oidc-axa/dist/globals.css';
+@import '@nudibranches-tech-components/oidc-axa/dist/globals.css';
 
 @tailwind base;
 @tailwind components;
