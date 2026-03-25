@@ -1,15 +1,21 @@
-
 # Components
 
-Contains reusable components.
+Contains reusable packages.
 
-## To test
+## Packages
+
+### oidc-axa
+
+OIDC components for AXA.
+
+## To test a package
 
 ```bash
+cd oidc-axa
 npm run build
 npm pack
-cd test-vite
+cd ../test-vite
 rm -rf node_modules pnpm-lock.yaml package-lock.json
-npm i ../nudibranches-tech-components-version.tgz --legacy-peer-deps
+npm i ../oidc-axa/nudibranches-tech-components-oidc-axa-1.0.0.tgz --legacy-peer-deps
 npm run dev
 ```

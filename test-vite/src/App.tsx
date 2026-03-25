@@ -1,5 +1,5 @@
 import './index.css'
-import { OidcSessionLost } from '@nudibranches-tech/components';
+import { OidcSessionLost } from '@nudibranches-tech/components-oidc-axa';
 
 
 function App() {

@@ -1,5 +1,5 @@
 {
-  "name": "@nudibranches-tech/components",
+  "name": "@nudibranches-tech/components-oidc-axa",
   "version": "1.0.0",
   "description": "Contains reusable components",
   "main": "dist/index.js",
@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/nudibranches-tech/components/issues"
   },
-  "homepage": "https://github.com/nudibranches-tech/components#readme",
+  "homepage": "https://github.com/nudibranches-tech/components/oidc-axa/#readme",
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
