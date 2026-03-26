@@ -12,10 +12,11 @@ OIDC components for AXA.
 
 ```bash
 cd oidc-axa
-npm run build
-npm pack
+pnpm install
+pnpm run build
+pnpm pack
 cd ../test-vite
 rm -rf node_modules pnpm-lock.yaml package-lock.json
-npm i ../oidc-axa/nudibranches-tech-components-oidc-axa-1.0.0.tgz --legacy-peer-deps
-npm run dev
+pnpm add ../oidc-axa/nudibranches-tech-components-oidc-axa-1.0.0.tgz
+pnpm dev
 ```

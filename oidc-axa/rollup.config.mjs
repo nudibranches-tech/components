@@ -9,7 +9,7 @@ export default [
   // 1. BUILD JS/TS
   {
     input: 'src/index.ts',
-    external: [],
+    external: ['react', 'react-dom', 'react/jsx-runtime', 'react/jsx-dev-runtime'],
     output: [
       {
         file: 'dist/index.cjs',
