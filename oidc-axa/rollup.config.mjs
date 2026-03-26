@@ -51,15 +51,15 @@ export default [
   {
     input: 'src/tailwind.config.ts',
     output: {
-      file: 'dist/tailwind.config.cjs'
+      file: 'dist/tailwind.config.mjs',
+      format: 'esm'
     },
     external: ['tailwindcss', 'tailwindcss-animate'],
     plugins: [
       typescript({
         tsconfig: './tsconfig.json',
         declaration: false
-      }),
-      commonjs()
+      })
     ]
   },
   // 4. TYPES

@@ -1,5 +1,5 @@
 {
-  "name": "@nudibranches-tech/components-oidc-axa",
+  "name": "@nudibranches-tech-components/oidc-axa",
   "version": "1.0.0",
   "description": "Contains reusable components",
   "main": "dist/index.js",
@@ -18,8 +18,8 @@
     },
     "./dist/globals.css": "./dist/globals.css",
     "./tailwind": {
-      "import": "./dist/tailwind.config.cjs",
-      "require": "./dist/tailwind.config.cjs"
+      "import": "./dist/tailwind.config.mjs",
+      "require": "./dist/tailwind.config.mjs"
     }
   },
   "repository": {
